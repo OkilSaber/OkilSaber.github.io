@@ -9,7 +9,7 @@ Plain HTML, CSS and JavaScript, with no build step: GitHub Pages serves the repo
 | File | What's in it |
 | --- | --- |
 | `data/projects.js` | The projects shown. `featured: true` gives a large card |
-| `data/profile.js` | Name, avatar, GitHub and LinkedIn links (empty LinkedIn = hidden button) |
+| `data/profile.js` | Name, GitHub and LinkedIn links (empty LinkedIn = hidden button). The avatar comes straight from GitHub |
 | `data/i18n.js` | Interface text in French and English |
 
 To add a project:
