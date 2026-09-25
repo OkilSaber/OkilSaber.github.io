@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Okil Lakhdari · Developer</title>
+    <meta name="description" content="Okil Lakhdari's portfolio: native desktop and mobile apps, and AI tooling." />
+    <meta name="theme-color" content="#0e0b1f" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/favicon.png" />
+    <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://okilsaber.github.io/" />
+    <meta property="og:title" content="Okil Lakhdari · Developer" />
+    <meta property="og:description" content="Native desktop and mobile apps, and AI tooling. Open source." />
+    <meta property="og:image" content="https://okilsaber.github.io/assets/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <div class="sky" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Okil Lakhdari">
+        <img class="brand-avatar" data-avatar alt="" width="32" height="32" />
+        <span data-name></span>
+      </a>
+      <nav class="topnav">
+        <a href="#featured" data-i18n="featuredTitle"></a>
+        <a href="#others" data-i18n="othersTitle"></a>
+        <button class="lang" type="button" data-lang-switch></button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-art" aria-hidden="true" data-hero-art></div>
+        <div class="hero-avatar reveal">
+          <img data-avatar alt="" width="112" height="112" />
+        </div>
+        <p class="eyebrow reveal"><span data-name></span> · <span data-i18n="role"></span></p>
+        <h1 class="hero-title reveal" data-i18n="heroTitle"></h1>
+        <p class="hero-text reveal" data-i18n="heroText"></p>
+        <div class="hero-actions reveal">
+          <a class="btn primary" href="#featured" data-i18n="ctaProjects"></a>
+          <a class="btn" data-github target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+            GitHub
+          </a>
+          <a class="btn" data-linkedin target="_blank" rel="noopener" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05a3.75 3.75 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+        <dl class="stats reveal" data-stats></dl>
+      </section>
+
+      <section id="featured" class="section">
+        <div class="section-head reveal">
+          <h2 data-i18n="featuredTitle"></h2>
+          <p data-i18n="featuredText"></p>
+        </div>
+        <div class="featured" data-featured></div>
+      </section>
+
+      <section id="others" class="section">
+        <div class="section-head row reveal">
+          <div>
+            <h2 data-i18n="othersTitle"></h2>
+            <p data-i18n="othersText"></p>
+          </div>
+          <div class="filters" role="tablist" data-filters></div>
+        </div>
+        <div class="grid" data-grid></div>
+      </section>
+
+      <section class="section">
+        <div class="section-head reveal">
+          <h2 data-i18n="stackTitle"></h2>
+        </div>
+        <ul class="stack reveal" data-stack></ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span data-year></span> <span data-name></span></span>
+      <span data-i18n="footer"></span>
+    </footer>
+  </body>
+</html>
