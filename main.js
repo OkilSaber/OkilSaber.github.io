@@ -121,9 +121,11 @@ function render() {
     .map(([n, label]) => `<div><dt>${n}</dt><dd>${esc(label)}</dd></div>`)
     .join("");
 
-  // Constellation d'icônes des projets phares, à droite du hero.
+  // Constellation d'icônes des projets phares, à droite du hero. Les positions sont écrites à la
+  // main dans styles.css (.tile.t0 à .t5) : on n'en affiche pas plus qu'il n'y a de places.
   $("[data-hero-art]").innerHTML = projects
     .filter((p) => p.featured)
+    .slice(0, 6)
     .map((p, i) => `<span class="tile reveal t${i}" style="--accent:${p.accent}"><img src="${esc(p.icon)}" alt="" width="96" height="96" /></span>`)
     .join("");
 

@@ -888,6 +888,7 @@ main {
 .tile.t2 { width: 112px; height: 112px; top: 58%; left: 74%; rotate: -7deg; }
 .tile.t3 { width: 96px; height: 96px; top: 4%; left: 14%; rotate: -10deg; }
 .tile.t4 { width: 100px; height: 100px; top: 62%; left: 18%; rotate: 6deg; }
+.tile.t5 { width: 84px; height: 84px; top: 36%; left: 0%; rotate: 9deg; }
 
 @media (max-width: 1100px) {
   .hero-art {
