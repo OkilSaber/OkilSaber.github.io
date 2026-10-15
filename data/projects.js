@@ -75,6 +75,36 @@ export const projects = [
     },
   },
   {
+    repo: "litefin",
+    name: "LiteFin",
+    featured: true,
+    category: "mobile",
+    accent: "#00a4dc",
+    icon: "assets/projects/litefin/icon.png",
+    media: { type: "image", src: "assets/projects/litefin/shot.jpg" },
+    stack: ["Kotlin", "Android TV", "Media3", "OkHttp"],
+    tagline: {
+      fr: "Un client Jellyfin léger pour Android TV",
+      en: "A lightweight Jellyfin client for Android TV",
+    },
+    description: {
+      fr: "Pensé pour les petites box qui rament : vues Android natives, APK d'environ 1,5 Mo, environ 40 Mo de RAM sur l'accueil, et l'option qui manquait au client officiel : toujours graver les sous-titres.",
+      en: "Built for low-end TV boxes: native Android views, a ~1.5 MB APK, about 40 MB of RAM on the home screen, and the option the official client lacks: always burn in subtitles.",
+    },
+    highlights: {
+      fr: [
+        "Sous-titres gravés par le serveur, Intro Skipper, chapitres et aperçus trickplay",
+        "Profils multiples, Connexion rapide, tri et filtres des bibliothèques",
+        "Navigation au D-pad pensée de bout en bout, sans animation superflue",
+      ],
+      en: [
+        "Server-side burned-in subtitles, Intro Skipper, chapters and trickplay previews",
+        "Multiple profiles, Quick Connect, library sorting and filters",
+        "D-pad navigation designed end to end, with no needless animation",
+      ],
+    },
+  },
+  {
     repo: "gt7-companion",
     name: "GT7 Companion",
     featured: true,
