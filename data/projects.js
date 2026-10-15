@@ -82,6 +82,7 @@ export const projects = [
     accent: "#00a4dc",
     icon: "assets/projects/litefin/icon.png",
     media: { type: "image", src: "assets/projects/litefin/shot.jpg" },
+    download: "https://github.com/OkilSaber/litefin/releases/latest",
     stack: ["Kotlin", "Android TV", "Media3", "OkHttp"],
     tagline: {
       fr: "Un client Jellyfin léger pour Android TV",
